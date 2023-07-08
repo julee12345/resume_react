@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import MyBioScreen from './pages/MyBioScreen';
 import MyBioEditScreen from './pages/MyBioEditScreen';
 
 function App() {
-  const [about, setAboutMe] = useState('');
   const [bioData, setBioData] = useState(null);
   const [editMode, setEditMode] = useState(false);
   const [skills, setSkills] = useState([]);

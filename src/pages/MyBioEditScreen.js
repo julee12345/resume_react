@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
-import Stack from '@mui/material/Stack';
 // My Bio Edit Screen component
 const MyBioEditScreen = ({
     bioData,
@@ -52,24 +51,12 @@ const MyBioEditScreen = ({
         setSelectedSkills(skill);
     };
 
-    const handleRemoveSkill = (index) => {
-        setSelectedSkills((prevSkills) => prevSkills.filter((_, i) => i !== index));
-    };
-
     const handleAddHobby = (hobby) => {
         setSelectedHobbies( hobby);
     };
 
-    const handleRemoveHobby = (index) => {
-        setSelectedHobbies((prevHobbies) => prevHobbies.filter((_, i) => i !== index));
-    };
-
     const handleAddSubject = (subject) => {
         setSelectedSubjects(subject);
-    };
-
-    const handleRemoveSubject = (index) => {
-        setSelectedSubjects((prevSubjects) => prevSubjects.filter((_, i) => i !== index));
     };
 
     return (
