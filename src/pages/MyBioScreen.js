@@ -3,7 +3,6 @@ import './MyBioScreen.css'
 import { SocialIcon } from 'react-social-icons';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
-import Stack from '@mui/material/Stack';
 
 // My Bio Screen component
 const MyBioScreen = ({ bioData, skills, hobbies, subjects, onEditClick }) => {
