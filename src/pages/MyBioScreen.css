@@ -1,0 +1,15 @@
+.screen{
+    width: 375px;
+    height: 812px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #FAF9F6;
+}
+
+.edit-icon{
+    padding-top: 18px
+}
+.textfield{
+    textShadowColor: rgba(0, 0, 0, 0.75);
+    textShadowRadius: 10
+}
